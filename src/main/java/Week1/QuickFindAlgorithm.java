@@ -1,7 +1,9 @@
+package Week1;
+
 import java.util.Scanner;
 
 /**
- * This class contains QuickFindAlgorithm and its illustration to check union and connection operation.
+ * This class contains Week1.QuickFindAlgorithm and its illustration to check union and connection operation.
  */
 
 public class QuickFindAlgorithm {
