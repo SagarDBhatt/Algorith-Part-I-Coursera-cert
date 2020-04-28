@@ -1,0 +1,13 @@
+********************************* ONSJHJSA ************************************************
+
+                            Weighted Quick Union
+
+** Problem with Quick find Algorith
+        1. Tall trees may join small trees.
+        2. Long trees create troubles.
+
+** Solution with Weighted Quick Union:
+        1. Keep track of size of each trees ( all the objects connected in a tree)
+        2. Balance trees by linking root of smaller tree with root of larger tree.
+
+** JAVA implementation: WeightedUnion.java
