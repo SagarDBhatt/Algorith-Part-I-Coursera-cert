@@ -28,4 +28,4 @@ A model for many physical systems:
 
     2. Another efficient approach is to connect all the open site (top and bottom) to one virtual parent node.
         -> Now we need to check only if both virtual nodes are connected or not.
-        -> This eliminates the need of two for loop to identify connected components. 
+        -> This eliminates the need of two for loop to identify connected components.
