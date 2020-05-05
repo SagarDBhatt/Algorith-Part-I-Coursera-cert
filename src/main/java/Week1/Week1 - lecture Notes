@@ -11,3 +11,21 @@
         2. Balance trees by linking root of smaller tree with root of larger tree.
 
 ** JAVA implementation: WeightedUnion.java
+
+*******************************************************************************************
+********************************* PERCOLATION ************************************************
+
+A model for many physical systems:
+・N-by-N grid of sites.
+・Each site is open with probability p (or blocked with probability 1 – p).
+・System percolates iff top and bottom are connected by open sites
+
+-> If top open site can connect to bottom open site (Using path of open site) then it called percolated.
+-> There are two ways to check for percolation.
+
+    1. Check any of the open site on top column is able to connect to any of the open site at bottom level.
+        -> This way we require two for loop for each open site at top and bottom. It is expensive operation.
+
+    2. Another efficient approach is to connect all the open site (top and bottom) to one virtual parent node.
+        -> Now we need to check only if both virtual nodes are connected or not.
+        -> This eliminates the need of two for loop to identify connected components. 
